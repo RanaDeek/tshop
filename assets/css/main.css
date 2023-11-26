@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:calc(100% - 120px);
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.active{
+    font-weight: 700;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 6666px;
+    background-color: #eee;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo img{
+    width: 30px;
+}
+
+header .logo a{
+    color: black;
+}
+header nav ul{
+    display: flex;
+    gap: 10px;
+}
+header nav ul a{
+    color: #101928;
+}
+header .auth{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+header .auth a{
+    padding: 5.345px 20.181px;
+    border-radius: 10px;
+    font-size: 500;
+    align-items: center;
+}
+header .auth .log{
+    color: #545BE8;
+    border: 2px solid #545BE8 ;
+}
+header .auth .reg{
+    background-color: #545BE8;
+    color: #fff;
+}
